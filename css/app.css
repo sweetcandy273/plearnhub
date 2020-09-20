@@ -14,10 +14,19 @@ padding-left: 5px;
     height: 70%;
 }
 
-.headPH{
-
+.center{
+font-weight: bold;
 font-size: x-large;
 text-align: center;
+color: white;
+}
 
+.imgdetail{
 
+    height: 70%;
+        text-align: center;
+}
+.detailmovie{
+margin-top: 15px;
+    text-align: center;
 }
