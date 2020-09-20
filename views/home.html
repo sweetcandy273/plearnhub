@@ -1,27 +1,31 @@
-<ons-page>
+<ons-page id ="home">
+  <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+  <template id="page1.html">
+    <ons-page id="page1">
+      <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+        <ons-carousel-item id="john_wick_1" style="
+        background:url(image/john_wick.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;">
 
-  <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
-    <ons-carousel-item style="
-    background:url(image/john_wick.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;"
-    >
+        </ons-carousel-item>
+        <ons-carousel-item id="john_wick_2" style="
+        background:url(image/john_wick_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;">
 
-    </ons-carousel-item>
-    <ons-carousel-item style="
-    background:url(image/john_wick_2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;"
-    >
+        </ons-carousel-item>
+        <ons-carousel-item id="john_wick_3" style="
+        background:url(image/john_wick_3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;">
 
-    </ons-carousel-item><ons-carousel-item style="
-    background:url(image/john_wick_3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;"
-    >
+        </ons-carousel-item>
+      </ons-carousel>
 
-    </ons-carousel-item>
-  </ons-carousel>
+      <p style="font-size: larger;">Top 10 of August</p>
 
-<p style="font-size: larger;">Top 10 of August</p>
+    </ons-page>
+  </template>
+
 </ons-page>
